@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #555;
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  /* padding: 2rem; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 4rem;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 4rem;
+}
+
+.logo {
+  height: 6.5rem;
+}
+
+.tag {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.search {
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  text-align: center;
+  width: 50rem;
+  border-radius: 10rem;
+  margin-right: 1rem;
+  color: inherit;
+  border: 1.5px solid #fff;
+  transition: all 0.3s;
+}
+
+.search:focus {
+  outline: none;
+  border: 1.5px solid #ccc;
+}
+
+.search::placeholder {
+  color: #a8a8a8;
+}
+
+form {
+  font-size: 1.6rem;
+  display: grid;
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: var(--color-lightest);
+  border-radius: 2rem;
+}
+
+label {
+  font-weight: 500;
+  width: 30px;
+  font-size: 1.8rem;
+}
+
+.transaction-input {
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 0.7rem;
+  border-radius: 4px;
+  transition: 0.3s;
+  background-color: #f3f3f3;
+  width: 300px;
+}
+
+.transaction-input:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+
+.transaction-input::placeholder {
+  font-size: 1.8rem;
+}
+
+.add-transaction {
+  grid-template-columns: 1fr 1.5fr;
+  padding: 2rem;
+  gap: 1rem;
+
+  max-width: 60rem;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px rgba(122, 122, 122, 0.4);
+  transition: all 0.5s ease;
+}
+
+.add-transaction:hover {
+  box-shadow: none;
+}
+
+.sort {
+  width: 250px;
+  border-radius: 0;
+  background-color: #fff;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
+}
+
+.sort:focus {
+  outline: none;
+  border: 1px solid #b4b4b4;
+}
+
+.form-title {
+  grid-column: 1 / -1;
+  padding: 1rem;
+  justify-self: start;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: #0b6d65;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1.8rem;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #0a524c;
+}
+
+.submit-btn {
+  grid-column: 1 / -1;
+  justify-self: end;
+  width: 100px;
+}
+
+.open-form {
+  padding: 1.5rem 1rem;
+  justify-self: start;
+  width: 200px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.transaction-table {
+  margin-bottom: 30px;
+}
+
+table {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  width: 100%;
+  text-align: left;
+  box-shadow: 10px 10px 10px rgba(122, 122, 122, 0.4);
+  border-radius: 2rem;
+  transition: all 0.5s ease;
+  font-size: 1.8rem;
+  overflow-y: scroll;
+}
+
+table:hover {
+  box-shadow: none;
+}
+
+table tbody tr {
+  position: relative;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+  border: none;
+}
+
+table tbody tr:hover {
+  background-color: #fffff2;
+}
+
+table thead tr td {
+  font-size: 3rem;
+}
+
+table tbody td {
+  height: 4.8rem;
+  border-bottom: 2px solid rgba(132, 139, 200, 0.18);
+  color: inherit;
+}
+
+table tbody tr:last-child td {
+  border: none;
+}
+
+.transactions {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+
+  justify-content: center;
+  padding: 1rem 4rem;
+}
+
+.add-form {
+  grid-column: 1/-1;
+  width: 100px;
+}
+
+.warning {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.caution {
+  color: orange;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 0;
+
+  padding-left: 0.7rem;
+  border: none;
+  color: #b1b1b1;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 1.8rem;
+}
+
+.delete-btn:hover {
+  color: red;
+}
