@@ -14,7 +14,9 @@ This is a website for viewing transactions.
 The user should be able to :
 
    1.See a table containing a list of their transactions.
+   
    2.Add a new transaction by filling the form at the top of the page.
+   
    3.Search transactions by name by typing into the search bar.
    
 To run the website:
