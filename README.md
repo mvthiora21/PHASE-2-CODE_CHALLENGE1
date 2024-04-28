@@ -3,10 +3,10 @@ Code-challenge-bank-of-flatiron
 VICTOR NGUGI
 
 Table of Content :
-Description
-Technology used
-License
-Author's info
+1.Description
+2.Technology used
+3.License
+4.Author's info
 Description:
 
 This is a website for viewing transactions.
