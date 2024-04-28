@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PHASE-2-CODE_CHALLENGE1/static/css/main.1032dc09.css",
+    "main.js": "/PHASE-2-CODE_CHALLENGE1/static/js/main.2b53bb0c.js",
+    "static/media/logo.png": "/PHASE-2-CODE_CHALLENGE1/static/media/logo.3b5049ea7908e9da3ba0.png",
+    "index.html": "/PHASE-2-CODE_CHALLENGE1/index.html",
+    "main.1032dc09.css.map": "/PHASE-2-CODE_CHALLENGE1/static/css/main.1032dc09.css.map",
+    "main.2b53bb0c.js.map": "/PHASE-2-CODE_CHALLENGE1/static/js/main.2b53bb0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1032dc09.css",
+    "static/js/main.2b53bb0c.js"
+  ]
+}
